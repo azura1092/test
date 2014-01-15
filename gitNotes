@@ -1,0 +1,21 @@
+remote repository - repository online(github)
+local repository - repository in pc created through git init
+
+
+git status - checks local repository
+git add <filename> - adds file to stage 
+git commit -m "comment" - commits the file to the local repository
+git log - shows the previous commits
+got remote add <origin> https://github.com/azura1092/test.git
+git push -u origin master / git push - push commits to remote repository
+git pull origin master - pull commits from remote repository
+git diff <master> - checks the difference between the local and commited
+git reset <filename> - unstage file
+
+
+branching
+git branch <branchname> -create new branch
+git checkout <branchname> - switch to <branchname>
+git merge <brachname> - merge branch with master
+git branch -d <branchname> - delete branch locally
+git push origin --delete <branchname> - delete branch online
